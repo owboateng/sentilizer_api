@@ -1,0 +1,19 @@
+{
+  "name": "sentilizer_api",
+  "version": "1.0.0",
+  "description": "A restful JSON API server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Evans Boateng",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "hapi": "^17.2.0",
+    "python-shell": "^0.4.0"
+  }
+}
